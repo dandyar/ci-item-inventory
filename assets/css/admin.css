@@ -1,0 +1,125 @@
+body{
+    background: #eaeded;
+}
+ul.top-nav > li > a#userArea >img{
+        height: 100%;
+        display: inline;
+        border-radius: 360px;
+        margin-right: 10px;
+    }
+a.navbar-brand .logoArea{
+    width: 240px;
+    text-align: left;
+    padding: 8px 15px;
+    color: #333;
+}
+a.logoArea > img{
+    height: 100%;
+    width: auto;
+    display: inline;
+    margin-bottom: 5px;
+}
+#wrapper{
+    padding-top: 120px;
+}
+
+@media(min-width: 768px){
+    
+    h1, h2, h3, h4, h5, h6, hr{
+        margin: 0;
+        padding: 0; 
+    }
+    
+    #wrapper{
+        padding-top: 50px;
+        padding-left: 225px;
+    }
+    
+    .mainContent{
+        background: #fff;
+        padding: 15px;
+    }
+    
+    #mainArea{
+        width: 100%;
+        padding: 0;
+    }
+    nav.navbar-default{
+        background: #333;
+        border: none;
+        border-radius: 0;
+    }
+    
+    nav.navbar-default .container{
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+    a.logoArea{
+        background: #35BAAF;
+        width: 240px;
+        text-align: center;
+        font-weight: bolder;
+        padding: 8px 15px;
+    }
+    a.logoArea > img{
+        height: 100%;
+        width: auto;
+        display: inline;
+        margin-bottom: 5px;
+    }
+    ul.top-nav > li{
+        margin-right: 50px;
+    }
+    ul.top-nav > li > a#userArea{
+        color: #ccc;
+        font-size: 14px;
+        padding: 10px 10px;
+    }
+    ul.top-nav > li > a#userArea >img{
+        height: 100%;
+        display: inline;
+        border-radius: 360px;
+        margin-right: 10px;
+    }
+    .side-nav{
+        position: fixed;
+        top: 50px;
+        left: 225px;
+        width: 225px;
+        margin-left: -225px;
+        border: none;
+        border-radius: 0;
+        background: #4d4d4d;
+        bottom: 0;
+    }
+    
+    .sidebarArea > ul.side-nav > li >a{
+        width: 225px;
+        color: #ccc;
+    }
+    .side-nav > li > ul{
+        background: #585858;
+    }
+    .side-nav > li > ul > li{
+        list-style: none;
+    }
+    .sidebarArea > .side-nav > li > ul > li >a {
+        padding-top: 10px;
+        padding-bottom:  10px;
+        display: block;
+        color: #ccc;
+    }
+    
+    .panel-body > h4{
+        margin-bottom: 10px;
+    }
+    
+    .newUser{
+        height: 393px;
+    }
+    div.newUser{
+        overflow-x: hidden;
+    }
+    
+}

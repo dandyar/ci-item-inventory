@@ -1,0 +1,21 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+input{
+    width: 100%;
+}
+input.kd_barang,
+input.jml{
+    width: 40px;
+    text-align: center;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #ccc;
+    padding: 10px 0;
+    text-align: right;
+}

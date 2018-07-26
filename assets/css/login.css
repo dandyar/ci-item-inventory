@@ -1,0 +1,36 @@
+body{
+	background-color: #eaeded;
+}
+
+#form-container{
+	margin: 0 auto;
+	margin-top: 5%;
+	max-width: 325px;
+	padding: 25px 18px;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+}
+div#login-img{
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: 100px;
+	height: auto;
+}
+div.input-group{
+	margin-bottom: 10px;
+}
+
+footer{
+	position: fixed;
+	padding: 10px 0;
+	bottom: 0;
+	background: #262626;
+	width: 100%;
+}
+footer p{
+	margin: 0;
+	padding: 0;
+	color: #f2f2f2;
+	text-align: center;
+}
