@@ -38,7 +38,7 @@
                     <li>
                         <a href="<?php echo site_url('admin/barang')?>"><i class="fa fa-cubes"></i>&nbsp;&nbsp;Barang</a>
                     </li>
-                     <li><a href="<?php echo site_url('admin/laporan') ?>"><i class="fa fa-calendar-o"></i>&nbsp;&nbsp;&nbsp;Laporan</a></li>
+                     <!-- <li><a href="<?php echo site_url('admin/laporan') ?>"><i class="fa fa-calendar-o"></i>&nbsp;&nbsp;&nbsp;Laporan</a></li> -->
                     <li>
                         <a href="#" data-toggle="collapse" data-target="#submenu-3" ><i class="fa fa-database "></i>&nbsp;&nbsp;&nbsp;&nbsp;Database</a>
                         <ul id="submenu-3" class="collapse">

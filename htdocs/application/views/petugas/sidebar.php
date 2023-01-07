@@ -35,7 +35,7 @@
                     <li>
                         <a href="<?php echo site_url('petugas/pengembalian') ?>"><i class="fa fa-arrow-circle-left"></i>&nbsp;&nbsp;&nbsp;Pengembalian</a>
                     </li>
-                    <li><a href="<?php echo site_url('petugas/laporan') ?>"><i class="fa fa-calendar-o"></i>&nbsp;&nbsp;&nbsp;Laporan</a></li>
+                    <!-- <li><a href="<?php echo site_url('petugas/laporan') ?>"><i class="fa fa-calendar-o"></i>&nbsp;&nbsp;&nbsp;Laporan</a></li> -->
                 </ul>
             </div>
             

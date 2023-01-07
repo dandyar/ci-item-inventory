@@ -227,14 +227,14 @@
 		
 		public function laporan($page = 'Halaman Admin')
         {
-            $this->load->model('admin/Model_Admin');
+            $this->load->model('admin/Model_admin');
             
             $data = array(
                 'user' => $this->session->userdata('username'),
                 'title' => $page."- Laporan",
                 'style_css' => 'admin.css',
-                'laporan' => $this->Model_Admin->select_all()->result(),
-                'laporan2' => $this->Model_Admin->select_all2()->result()
+                'laporan' => $this->Model_admin->select_all()->result(),
+                'laporan2' => $this->Model_admin->select_all2()->result()
             );
             
             $this->load->view('templates/header', $data);
